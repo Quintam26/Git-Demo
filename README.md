@@ -1,5 +1,7 @@
 # This is Git-Demo
 
-'git init'
-'git remote add'
-'git commit'
+## Step by step
+
+- 'git init'
+- 'git remote add'
+- 'git commit'

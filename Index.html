@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hello Portland</title>
+    </head>
+    <body>
+        <section>
+            <h1>Hello Let's Get Started!</h1>
+            <p>How is class going so far?</p>
+        </section>
+        
+        <section>
+            <h2>Survey Questions</h2>
+            <p>What's your favorite color?</p>
+            <p>Do you like hawaiian pizza?</p>
+            <p>What's your favorite movie?</p>
+            <p>Do you like to drive?</p>
+        </section>
+
+        <script>
+        alert("Let's get started!");
+        const name = prompt("What's your name?")
+        console.log("their name is " + name);
+        // const name = "Mario";
+
+        alert("Hello " + name);
+        const color = prompt("What's your favorite color?")
+        console.log("favorite color is " + color);
+        // const color = "green";
+
+        alert("Not a bad choice " + name + "!");
+        const pizza = confirm("Do you like hawaiian pizza?")
+        console.log("like hawaiian pizza " + pizza);
+        //const pizza = "true";
+        
+        alert("Okay " + name + " now that we know your pizza preferences let's dig further.");
+        const movie = prompt("What's your favorite movie?")
+        console.log("favorite movie is " + movie);
+        //const movie = "The Godfather";
+
+        alert("I see you are a person of culture as well " + name + ".  And now for the last question.");
+        const driving = confirm("Do you like to drive?")
+        console.log("like to drive " + driving);
+        //const driving = "true";
+
+        alert("I'm the same way so that makes two of us!");
+        </script>
+
+    </body>
+</html>

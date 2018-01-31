@@ -9,8 +9,6 @@ These files inlcude:
 - Javascript
 - README
 
-Each file is part of the overall project therefore we need to complete each file successfully.  
-
 ## Getting Started
 
 

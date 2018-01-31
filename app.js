@@ -75,3 +75,31 @@ else if (age === 'no' || age === 'n')  {
 else {
     alert('Try again.');
 }
+
+const mySiblings = prompt('How many siblings do you think I have?');
+console.log ('I have ' + mySiblings + ' siblings.');
+
+if (mySiblings === 0){
+    alert('I actually do have some siblings...');
+}
+else if (mySiblings < 6){
+    alert('I have few more siblings than that.');
+}
+else if (mySiblings > 6){
+    alert('You are guessing too high!');
+}
+else if (mySiblings === 6){
+    alert('That\'s exactly right!');
+}
+
+
+//const mySiblings = '6'; 
+
+
+/*
+let totalCommits = 0;
+for (let i = 0; i < 5; i++){
+    console.log('looping');
+    console.log('num of loops: ' + i);
+
+}*/

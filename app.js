@@ -39,7 +39,7 @@ console.log('Do I like Mac and Cheese ' + snack);
 //const snack = 'no';
 
 if (snack.toLowerCase() === 'yes' || snack.toLowerCase() === 'y') {
-    alert(' I have never seen their  appeal.');
+    alert(' I have never seen it\'s  appeal.');
 }
 else if (snack.toLowerCase() === 'no' || snack.toLowerCase() === 'n') {
     alert('Correct I prefer pizza or fries!');

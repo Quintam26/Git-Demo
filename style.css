@@ -30,6 +30,10 @@ a[href="#Hobbies"] {
     color: white;
     }
 
+img {
+    border: solid black;
+}
+
 p   {
     text-indent: 4em;
     font-family: Georgia, serif;

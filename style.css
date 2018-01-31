@@ -14,6 +14,22 @@ nav li {
     font-family: "Gill Sans", sans-serif;
     }
 
+a[href="#Home"] {
+    color: white;
+    }
+
+a[href="#Background"] {
+    color: white;
+    }
+
+a[href="#Experience"] {
+    color: white;
+    }
+
+a[href="#Hobbies"] {
+    color: white;
+    }
+
 p   {
     text-indent: 4em;
     font-family: Georgia, serif;

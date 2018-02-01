@@ -11,13 +11,13 @@ console.log('Do I like Top Gear ' + tvShow);
 //const tvShow = 'yes';
 
 if (tvShow === 'yes' || tvShow === 'y') {
-    alert('Correct!');
+    alert('I watch it everyday!');
 }
 else if (tvShow === 'no' || tvShow === 'n') {
     alert('You should know me better by now.');
 }
 else {
-    alert('Try again.');
+    alert('Invalid Input.');
 }
 
 const hobby = prompt('Do I do weightlifting?').toLowerCase();
@@ -28,27 +28,27 @@ if (hobby === 'yes' || hobby === 'y') {
     alert('It\'s a challenging and rewarding sport.');
 }
 else if (hobby === 'no' || hobby === 'n'){
-    alert('You got it wrong.');
+    alert('You got it wrong this time.');
 }
 else {
-    alert('Try again.');
+    alert('Invalid Input.');
 }
 
-const snack = prompt('Do you like Mac & Cheese?').toLowerCase();
+const snack = prompt('Do I like Mac & Cheese?').toLowerCase();
 console.log('Do I like Mac and Cheese ' + snack);
 //const snack = 'no';
 
 if (snack === 'yes' || snack === 'y') {
-    alert(' I have never seen it\'s  appeal.');
+    alert('I actually don\'t like it.');
 }
 else if (snack === 'no' || snack === 'n') {
     alert('Correct I prefer pizza or fries!');
 }
 else {
-    alert('Try again.');
+    alert('Invalid Input.');
 }
 
-const vGames = prompt('Do you still play video games?').toLowerCase();
+const vGames = prompt('Do I still play video games?').toLowerCase();
 console.log('Do I play video games ' + vGames);
 //const vGames = 'yes';
 
@@ -59,47 +59,37 @@ else if (vGames === 'no' || vGames === 'n') {
     alert('Well it\'s not entirely like that.');
 }
 else {
-    alert('Try again.');
+    alert('Invalid Input.');
 }
 
-const age = prompt('Are you older than 25?').toLowerCase();
+const age = prompt('Am I you older than 25?').toLowerCase();
 console.log('Am I older than 25 ' + age);
 //const age = 'yes';
 
 if (age === 'yes' || age === 'y') {
-    alert('Getting older has done me well.');
+    alert('Correct I am 27 years old.');
 }
 else if (age === 'no' || age === 'n')  {
     alert('I wish was that young!');
 }
 else {
-    alert('Try again.');
+    alert('Invalid Input.');
 }
 
-const mySiblings = prompt('How many siblings do you think I have?');
-console.log ('I have ' + mySiblings + ' siblings.');
-
-if (mySiblings === 0){
-    alert('I actually do have some siblings...');
-}
-else if (mySiblings < 6){
-    alert('I have few more siblings than that.');
-}
-else if (mySiblings > 6){
-    alert('You are guessing too high!');
-}
-else if (mySiblings === 6){
-    alert('That\'s exactly right!');
-}
-
-
-//const mySiblings = '6'; 
-
-
-/*
-let totalCommits = 0;
 for (let i = 0; i < 5; i++){
-    console.log('looping');
-    console.log('num of loops: ' + i);
+    const mySiblings = parseInt(prompt('How many siblings do you think I have?'));
+    console.log ('I have ' + mySiblings + ' siblings.');
 
-}*/
+    if (mySiblings === 0) {
+        alert('I actually do have some siblings...');
+    }
+    else if (mySiblings < 6) {
+        alert('I have few more siblings than that.');
+    }
+    else if (mySiblings > 6) {
+        alert('You are guessing too high!');
+    }
+    else if (mySiblings === 6 ){
+        alert('That\'s exactly right!');
+    }
+}

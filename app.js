@@ -4,21 +4,26 @@ alert('Let\'s get started!');
 const name = prompt('What\'s your name?');
 console.log('their name is ' + name);
 // const name = 'Mario';
-
 alert('Hello ' + name);
-const tvShow = prompt('Is Top Gear my favorite TV show?').toLowerCase();
-console.log('Do I like Top Gear ' + tvShow);
-//const tvShow = 'yes';
 
-if (tvShow === 'yes' || tvShow === 'y') {
-    alert('I watch it everyday!');
+function q1(){
+    const tvShow = prompt('Is Top Gear my favorite TV show?').toLowerCase();
+    console.log('Do I like Top Gear ' + tvShow);
+    //const tvShow = 'yes';
+    
+    if (tvShow === 'yes' || tvShow === 'y') {
+        alert('I watch it everyday!');
+    }
+    else if (tvShow === 'no' || tvShow === 'n') {
+        alert('You should know me better by now.');
+    }
+    else {
+        alert('Invalid Input.');
+    }  
 }
-else if (tvShow === 'no' || tvShow === 'n') {
-    alert('You should know me better by now.');
-}
-else {
-    alert('Invalid Input.');
-}
+
+
+
 
 const hobby = prompt('Do I do weightlifting?').toLowerCase();
 console.log('Do I enjoy weightlifting ' + hobby);

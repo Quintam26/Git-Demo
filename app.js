@@ -91,5 +91,6 @@ for (let i = 0; i < 5; i++){
     }
     else if (mySiblings === 6 ){
         alert('That\'s exactly right!');
+        break;
     }
 }

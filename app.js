@@ -93,4 +93,24 @@ for (let i = 0; i < 5; i++){
         alert('That\'s exactly right!');
         break;
     }
+    else {
+        alert('Invalid Input.');
+    }
 }
+
+
+const lifts =  ['squat', 'bench', 'deadlift', 'shoulder press', 'back row']
+for (let i = 0; i < 7; i++){
+    let favLifts = prompt('Can you guess one of my favorite lifts in the gym?').toLowerCase();
+    console.log ('One of my favorite lifts is ' + favLifts + '!');
+
+    if (lifts.includes(favLifts)){
+        alert('You\'re good at this game!');
+        break;
+    }
+    else {
+        alert('Keep guessing.');
+    }
+}
+
+

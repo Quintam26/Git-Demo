@@ -11,4 +11,4 @@ These files inlcude:
 
 ## Getting Started
 
-
+## This was edited by Ryan Manro on 2/1/2018 - added functions

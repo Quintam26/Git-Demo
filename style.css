@@ -1,12 +1,44 @@
-h1 {
-    color: white;
+
+nav ul{
     background-color: rgb(0, 29, 122);
-    text-align: center;
-    font-size: 24px;
+    margin: 0 auto;
+    padding: 0;
+    width: fit-content;
+
+    }
+nav li {
+    color: white;
+    list-style: none; 
+    display: inline;
+    padding:100px;
     font-family: "Gill Sans", sans-serif;
     }
+
+a[href="#Home"] {
+    color: white;
+    }
+
+a[href="#Background"] {
+    color: white;
+    }
+
+a[href="#Experience"] {
+    color: white;
+    }
+
+a[href="#Hobbies"] {
+    color: white;
+    }
+
+img {
+    border: solid black;
+}
 
 p   {
     text-indent: 4em;
     font-family: Georgia, serif;
     }
+
+h3 {
+    text-indent: 1em;
+}

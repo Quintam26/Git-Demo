@@ -6,72 +6,111 @@ console.log('their name is ' + name);
 // const name = 'Mario';
 
 alert('Hello ' + name);
-const tvShow = prompt('Is Top Gear my favorite TV show?');
+const tvShow = prompt('Is Top Gear my favorite TV show?').toLowerCase();
 console.log('Do I like Top Gear ' + tvShow);
 //const tvShow = 'yes';
 
-if (tvShow.toLowerCase() === 'yes' || tvShow.toLowerCase() === 'y') {
-    alert('Correct!');
+if (tvShow === 'yes' || tvShow === 'y') {
+    alert('I watch it everyday!');
 }
-else if (tvShow.toLowerCase() === 'no' || tvShow.toLowerCase() === 'n') {
+else if (tvShow === 'no' || tvShow === 'n') {
     alert('You should know me better by now.');
 }
 else {
-    alert('Try again.');
+    alert('Invalid Input.');
 }
 
-const hobby = prompt('Do I do weightlifting?');
+const hobby = prompt('Do I do weightlifting?').toLowerCase();
 console.log('Do I enjoy weightlifting ' + hobby);
 //const hobby = 'yes';
 
-if (hobby.toLowerCase() === 'yes' || hobby.toLowerCase() === 'y') {
+if (hobby === 'yes' || hobby === 'y') {
     alert('It\'s a challenging and rewarding sport.');
 }
-else if (hobby.toLowerCase() === 'no' || hobby.toLowerCase() === 'n'){
-    alert('You got it wrong.');
+else if (hobby === 'no' || hobby === 'n'){
+    alert('You got it wrong this time.');
 }
 else {
-    alert('Try again.');
+    alert('Invalid Input.');
 }
 
-const snack = prompt('Do you like Mac & Cheese?');
+const snack = prompt('Do I like Mac & Cheese?').toLowerCase();
 console.log('Do I like Mac and Cheese ' + snack);
 //const snack = 'no';
 
-if (snack.toLowerCase() === 'yes' || snack.toLowerCase() === 'y') {
-    alert(' I have never seen it\'s  appeal.');
+if (snack === 'yes' || snack === 'y') {
+    alert('I actually don\'t like it.');
 }
-else if (snack.toLowerCase() === 'no' || snack.toLowerCase() === 'n') {
+else if (snack === 'no' || snack === 'n') {
     alert('Correct I prefer pizza or fries!');
 }
 else {
-    alert('Try again.');
+    alert('Invalid Input.');
 }
 
-const vGames = prompt('Do you still play video games?');
+const vGames = prompt('Do I still play video games?').toLowerCase();
 console.log('Do I play video games ' + vGames);
 //const vGames = 'yes';
 
-if (vGames.toLowerCase() === 'yes' || vGames.toLowerCase() === 'y') {
+if (vGames === 'yes' || vGames === 'y') {
     alert('Yep but I only play Civilization 5 now.');
 }
-else if (vGames.toLowerCase() === 'no' || vGames.toLowerCase() === 'n') {
+else if (vGames === 'no' || vGames === 'n') {
     alert('Well it\'s not entirely like that.');
 }
 else {
-    alert('Try again.');
+    alert('Invalid Input.');
 }
 
-const age = prompt('Are you older than 25?');
+const age = prompt('Am I you older than 25?').toLowerCase();
 console.log('Am I older than 25 ' + age);
 //const age = 'yes';
 
-if (age.toLowerCase() === 'yes' || age.toLowerCase() === 'y') {
-    alert('Getting older has done me well.');
+if (age === 'yes' || age === 'y') {
+    alert('Correct I am 27 years old.');
 }
-else if (age.toLowerCase() === 'no' || age.toLowerCase() === 'n')  {
+else if (age === 'no' || age === 'n')  {
     alert('I wish was that young!');
 }
 else {
-    alert('Try again.');
+    alert('Invalid Input.');
 }
+
+for (let i = 0; i < 5; i++){
+    const mySiblings = parseInt(prompt('How many siblings do you think I have?'));
+    console.log ('I have ' + mySiblings + ' siblings.');
+
+    if (mySiblings === 0) {
+        alert('I actually do have some siblings...');
+    }
+    else if (mySiblings < 6) {
+        alert('I have few more siblings than that.');
+    }
+    else if (mySiblings > 6) {
+        alert('You are guessing too high!');
+    }
+    else if (mySiblings === 6 ){
+        alert('That\'s exactly right!');
+        break;
+    }
+    else {
+        alert('Invalid Input.');
+    }
+}
+
+
+const lifts =  ['squat', 'bench', 'deadlift', 'shoulder press', 'back row']
+for (let i = 0; i < 7; i++){
+    let favLifts = prompt('Can you guess one of my favorite lifts in the gym?').toLowerCase();
+    console.log ('One of my favorite lifts is ' + favLifts + '!');
+
+    if (lifts.includes(favLifts)){
+        alert('You\'re good at this game!');
+        break;
+    }
+    else {
+        alert('Keep guessing.');
+    }
+}
+
+

@@ -39,6 +39,10 @@ p   {
     font-family: Georgia, serif;
     }
 
+h2 {
+    text-indent: 2em;
+}
+
 h3 {
-    text-indent: 1em;
+    text-indent: 2em;
 }

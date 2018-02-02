@@ -43,6 +43,8 @@ h2 {
     text-indent: 2em;
 }
 
-h3 {
-    text-indent: 2em;
+#states li {
+    font-size: 18px;
+    margin-left: 3%
+    
 }

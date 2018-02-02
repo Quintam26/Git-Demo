@@ -36,8 +36,7 @@ img {
 
 p   {
     text-indent: 4em;
-    text-justify: newspaper;
-    font-size: 22px;
+    font-size: 20px;
     font-family: Georgia, serif;
     margin: 0 auto;
     padding: 0;
@@ -52,6 +51,14 @@ h2 {
 }
 
 #states li {
+    font-size: 22px;
+    margin: 0 auto;
+    padding: 0;
+    width: 50%;
+    
+}
+
+#stuff li {
     font-size: 22px;
     margin: 0 auto;
     padding: 0;

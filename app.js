@@ -1,5 +1,5 @@
 'use strict';
-
+/*
 alert('Let\'s get started!');
 const name = prompt('What\'s your name?');
 console.log('their name is ' + name);
